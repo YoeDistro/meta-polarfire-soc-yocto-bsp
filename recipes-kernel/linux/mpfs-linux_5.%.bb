@@ -7,6 +7,7 @@ BRANCH = "linux-5.6.y"
 SRCREV = "v5.6.16"
 SRC_URI = " \
     git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git;branch=${BRANCH} \
+    file://initramfs.cfg \
 "
 SRC_URI_append_icicle-kit-es = " \
     file://icicle-kit-es-microchip.dts \
